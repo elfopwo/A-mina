@@ -1,0 +1,33 @@
+body {
+    background-color: #331148;
+    color: white;
+    font-family: "Yuji Mai", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #8a2595;
+    color: white;
+    font-family: "Yuji Mai", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 80%;
+}
+
+img {
+    max-width: 80%;
+}
